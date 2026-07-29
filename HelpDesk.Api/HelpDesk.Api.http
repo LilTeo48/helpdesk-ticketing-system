@@ -1,12 +1,12 @@
-@HelpDesk.Api_HostAddress = http://localhost:5011
+@host = http://localhost:5011
 
 ###
 
-GET {{HelpDesk.Api_HostAddress}}/api/tickets
+GET {{host}}/api/tickets
 
 ###
 
-POST {{HelpDesk.Api_HostAddress}}/api/tickets
+POST {{host}}/api/tickets
 Content-Type: application/json
 
 {
@@ -18,11 +18,11 @@ Content-Type: application/json
 
 ###
 
-GET {{HelpDesk.Api_HostAddress}}/api/tickets/1
+GET {{host}}/api/tickets/1
 
 ###
 
-PUT {{HelpDesk.Api_HostAddress}}/api/tickets/1
+PUT {{host}}/api/tickets/1
 Content-Type: application/json
 
 {
@@ -34,4 +34,4 @@ Content-Type: application/json
 
 ###
 
-DELETE {{HelpDesk.Api_HostAddress}}/api/tickets/1
+DELETE {{host}}/api/tickets/2
